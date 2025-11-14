@@ -78,3 +78,9 @@ npm run deploy
 <p align="left">Быстрый старт новых лендингов и прототипов<br><br>Учебные проекты и эксперименты<br><br>Шаблон для командной работы и будущих расширений</p>
 
 ###
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
