@@ -1,30 +1,27 @@
 {
-  "name": "parcel-html-sass-js-starter-template",
-  "version": "0.1.0",
-  "description": "Starter template for building static web apps with HTML partials, SASS, and JavaScript.",
+  "name": "dudeshape",
+  "version": "1.0.0",
+  "description": "Landing page Dudeshape",
   "scripts": {
-    "clean": "rimraf dist",
-    "start": "npm run clean && parcel serve ./src/index.html",
-    "build": "npm run clean && parcel build ./src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aileen-r/parcel-html-sass-js-starter-template.git"
+    "url": "git+https://github.com/frotrest/dudeshape.git"
   },
-  "author": "Aileen Rae",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aileen-r/parcel-html-sass-js-starter-template/issues"
+    "url": "https://github.com/frotrest/dudeshape/issues"
   },
-  "homepage": "https://parcel-html-sass-js-starter-template.netlify.app",
+  "homepage": "https://frotrest.github.io/dudeshape",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0",
-    "parcel": "^2.0.0",
-    "posthtml-include": "^1.7.2",
-    "rimraf": "^3.0.2"
-  },
-  "dependencies": {
-    "prismjs": "^1.25.0"
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.1",
+    "sass": "^1.94.0"
   }
 }
