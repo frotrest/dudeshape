@@ -46,7 +46,7 @@
 
 ###
 
-<p align="left">В package.json поменяйте следующее:<br><br>  "name": "название-вашего-репозитория",<br><br>    "build": "parcel build src/*.html --public-url /название-вашего-репозитория/",<br><br>    "url": "git+https://github.com/frotrest/название-вашего-репозитория.git",<br><br>  "homepage": "https://frotrest.github.io/название-вашего-репозитория",</p>
+<p align="left">В package.json поменяйте следующее:<br><br>  "name": "название-вашего-репозитория",<br><br>    "build": "parcel build src/*.html --public-url /название-вашего-репозитория/",<br><br>    "url": "git+https://github.com/frotrest/название-вашего-репозитория.git",<br><br>  "homepage": "https://ваш-ник-гитхаб.github.io/название-вашего-репозитория",</p>
 
 ###
 
