@@ -33,7 +33,7 @@ src/
 
 Установи зависимости: 
 ```
-npm install
+npm install --save-dev
 ```
 ###
 
